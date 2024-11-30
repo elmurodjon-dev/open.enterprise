@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+
+}
+
+.header-href{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-list{
+    display: flex;
+    color: black;
+
+    .nav-active{
+        color: #71A894;
+    }
+
+    a{
+        font-weight: 500;
+        font-size: 20px;
+        color: black;
+
+        &:hover{
+            color: #71A894;
+        }
+
+        &:active{
+            color: black;
+        }
+    }
+}
